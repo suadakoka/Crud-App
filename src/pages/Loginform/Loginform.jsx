@@ -1,15 +1,15 @@
 import React from "react";
-import "./Login.css";
+import "./Loginform.css";
 import { useNavigate } from "react-router-dom";
 
-export function Login() {
+export function Loginform() {
   const navigate = useNavigate();
   function handleclick() {
     navigate("/dashboard");
   }
 
   return (
-    <div className="title">
+    <div className="head">
       <form action="">
         <div className="sign">
           <p>
@@ -41,4 +41,4 @@ export function Login() {
   );
 }
 
-export default Login;
+export default Loginform;

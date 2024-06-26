@@ -1,9 +1,9 @@
-.title {
+.head {
   display: flex;
   flex-direction: column;
   margin: auto;
   margin-top: 50px;
-  background: #fff;
+  background: gainsboro;
   border-radius: 7px;
   width: auto;
   /* height: 192px; */
