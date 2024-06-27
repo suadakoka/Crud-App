@@ -1,43 +1,40 @@
 .dashboard {
   width: auto;
-  padding: 0px 0px 500px 0px;
+
   height: 97px;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  gap: 45px;
-  background: #fff;
+  align-items: center;
+  justify-content: space-between;
 }
 
 body .dashboard {
-  background: #fff;
+  background: lightgray;
 }
 p {
-  width: 100px;
-  display: flex;
-  flex-direction: column;
+  /* width: 100px; */
+  /* display: flex; */
+  /* flex-direction: column; */
   font-size: 21px;
   font-weight: bold;
-  margin: 19px;
-  padding: 12px 20px 18px;
+  /* margin: 19px; */
+
   align-items: self-start;
 }
-ul {
-  display: contents;
-  font-size: x-small;
-}
+
 button {
   background: orange;
   display: flex;
-  padding: 10px -1px 30px 19px;
-  align-self: right;
+
   /* width: -webkit-fill-available; */
-  width: 152px;
+  width: auto;
   height: 46px;
   /* margin: 63px; */
   border: 0px solid;
   /* text-align: center; */
+
   border-radius: 4px;
   align-items: center;
   padding: 0px 9px;
+  justify-content: space-around;
 }

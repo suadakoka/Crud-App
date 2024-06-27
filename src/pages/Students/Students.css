@@ -1,15 +1,80 @@
-.std {
+/* .prop {
   display: flex;
   flex-direction: column;
   /* font-size: 9px; */
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: separate;
 
-  background: #fff;
-  padding: 0px 4px 0px 30px;
-  width: auto;
-  margin-top: 4px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
 }
-.item {
-  display: flex;
+
+#costumers tr {
+  border: 0px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+}
+
+/* #customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+td {
+  /* border: solid 1px #000; */
+  /* border-style: none solid solid none; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#customers th {
+  border: 0px solid #fff;
+  border-radius: 10px;
+
+  padding: 8px;
+}
+#customers td {
+  padding: 21px 23px 16px 9px;
+}
+td {
+  border: solid 1px gainsboro;
+  border-style: solid none;
+  border-radius: 1px;
+  padding: 10px;
+  background-color: white;
+}
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-end-end-radius: 10px;
+  border-top-right-radius: 10px;
+}
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: black;
+}
+
+/* .item {
+  display: flex;s
   flex-direction: row;
   border: 1px solid;
   margin: 6px;
@@ -22,4 +87,4 @@ p {
   font-weight: initial;
   font-style: italic;
   margin: 30px;
-}
+} */

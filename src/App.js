@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import Loginform from "./pages/Loginform/Loginform";
+import Login from "./pages/Login/Login";
 import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
     <Routes>
       <Route>
-        <Route path="/" element={<Loginform />} />
+        <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Route>
     </Routes>

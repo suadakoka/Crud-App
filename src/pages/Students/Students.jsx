@@ -10,7 +10,7 @@ const Students = () => {
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
 
     {
@@ -18,7 +18,7 @@ const Students = () => {
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
 
     {
@@ -26,28 +26,28 @@ const Students = () => {
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
 
     {
@@ -55,45 +55,55 @@ const Students = () => {
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
     {
       name: "Karthi",
       email: "karthi@gmail.com",
       phone: 73054777760,
       enrollnumber: 12345678888,
-      dateofadmission: "Dec2021",
+      dateofadmission: "08-Dec,2021",
     },
   ]);
 
   return (
-    <div className="std">
-      {list.map((item, index) => (
-        <div className="item" key={index}>
-          <p>{item.name}</p>
-          <p>{item.email}</p>
-          <p>{item.phone}</p>
-          <p>{item.enrollnumber}</p>
-          <p>{item.dateofadmission}</p>
-          <icon type="edit"></icon>
-          <icon type="delete"></icon>
-        </div>
-      ))}
-    </div>
+    <>
+      <table id="customers">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Enroll Number</th>
+          <th>Date of admission</th>
+        </tr>
+
+        {list.map((item, index) => {
+          return (
+            <tr key={index}>
+              <td>{item.name}</td>
+              <td>{item.email}</td>
+              <td>{item.phone}</td>
+              <td>{item.enrollnumber}</td>
+              <td>{item.dateofadmission}</td>
+            </tr>
+          );
+        })}
+      </table>
+    </>
   );
 };
 

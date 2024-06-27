@@ -1,5 +1,5 @@
 import React from "react";
-import "./Loginform.css";
+import "./Login.css";
 import { useNavigate } from "react-router-dom";
 
 export function Loginform() {
@@ -9,7 +9,7 @@ export function Loginform() {
   }
 
   return (
-    <div className="head">
+    <div className="title">
       <form action="">
         <div className="sign">
           <p>
