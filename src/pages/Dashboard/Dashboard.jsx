@@ -9,7 +9,7 @@ export function Dashboard() {
   return (
     <>
       <div className="dashboard">
-        <p>Students List</p>
+        <p>Users List</p>
         {/* //{" "}
         <ul>
           <a>Name</a>
@@ -18,7 +18,6 @@ export function Dashboard() {
           <a>Enroll Number</a>
           <a>Date of admission</a>
         </ul> */}
-        <button type="add">Add New Students</button>
       </div>
       <Students />
     </>
